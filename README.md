@@ -67,4 +67,3 @@ You can display last report by command:
 ```
 npx playwright show-report testResults/htmlReport 
 ```
-Report, created for every single page, is in the folder: testResults/accessibility. 
