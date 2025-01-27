@@ -1,0 +1,13 @@
+config:
+  target: https://kainos.com
+  engines:
+    playwright: {}
+  processor: "./tests/artillery/navigation.ts"
+  phases:
+  - name: fixed
+    duration: 5
+    arrivalCount: 2
+scenarios:
+  - name: BASICLOAD
+    engine: playwright
+    testFunction: artilleryScript

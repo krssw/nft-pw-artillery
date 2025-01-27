@@ -1,0 +1,14 @@
+.vscode/
+.DS_Store
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.sass-cache/
+.cache/
+.parcel-cache/
+dist/
+build/
+out/
+*.log
